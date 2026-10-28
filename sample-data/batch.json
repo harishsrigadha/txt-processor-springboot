@@ -1,0 +1,14 @@
+[
+  {"transactionId":"T3","requestId":"R3","accountId":"ACC-1001","transactionType":"CREDIT","amount":50.00,"currency":"USD","sequenceNumber":3,"originalTransactionId":null},
+  {"transactionId":"T1","requestId":"R1","accountId":"ACC-1001","transactionType":"CREDIT","amount":100.00,"currency":"USD","sequenceNumber":1,"originalTransactionId":null},
+  {"transactionId":"T1","requestId":"R1-retry","accountId":"ACC-1001","transactionType":"CREDIT","amount":100.00,"currency":"USD","sequenceNumber":1,"originalTransactionId":null},
+  {"transactionId":"T2","requestId":"R2","accountId":"ACC-1001","transactionType":"DEBIT","amount":30.00,"currency":"USD","sequenceNumber":2,"originalTransactionId":null},
+  {"transactionId":"T4","requestId":"R4","accountId":"ACC-1001","transactionType":"DEBIT","amount":500.00,"currency":"USD","sequenceNumber":4,"originalTransactionId":null},
+  {"transactionId":"T5","requestId":"R5","accountId":"ACC-1001","transactionType":"REVERSAL","amount":30.00,"currency":"USD","sequenceNumber":5,"originalTransactionId":"T2"},
+  {"transactionId":"T10","requestId":"R10","accountId":"ACC-1001","transactionType":"CREDIT","amount":null,"currency":"USD","sequenceNumber":6,"originalTransactionId":null},
+  {"transactionId":"T6","requestId":"R6","accountId":"ACC-2002","transactionType":"CREDIT","amount":200.00,"currency":"USD","sequenceNumber":1,"originalTransactionId":null},
+  {"transactionId":"T7","requestId":"R7","accountId":"ACC-2002","transactionType":"DEBIT","amount":40.00,"currency":"USD","sequenceNumber":2,"originalTransactionId":null},
+  {"transactionId":"T8","requestId":"R8","accountId":"ACC-2002","transactionType":"CREDIT","amount":25.00,"currency":"USD","sequenceNumber":3,"originalTransactionId":null},
+  {"transactionId":"T9","requestId":"R9","accountId":"ACC-2002","transactionType":"CREDIT","amount":10.00,"currency":"USD","sequenceNumber":5,"originalTransactionId":null},
+  {"transactionId":"T6","requestId":"R6-again","accountId":"ACC-2002","transactionType":"CREDIT","amount":200.00,"currency":"USD","sequenceNumber":1,"originalTransactionId":null}
+]
